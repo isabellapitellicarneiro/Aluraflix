@@ -1,0 +1,65 @@
+body{
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+}
+
+
+header{
+    border-bottom: solid red;
+padding: 20px;
+font-size: 32px;
+color: red
+}
+
+.titulo{
+    background: linear-gradient(217deg, rgba(255,0,0,.7), rgb(44, 44, 44) 70%),
+    linear-gradient(127deg, rgba(65, 65, 65, 0.8), rgb(67, 65, 65) 70%),
+    linear-gradient(336deg, rgba(128, 26, 26, 0.9), rgb(53, 51, 51) 70%);
+    padding-bottom: 80px;
+    padding-top: 80px ;
+    display: flex;
+    justify-content: center;
+}
+
+
+.titulo-aranha{
+    margin-right: 5%;
+
+}
+.titulo-aranha h1{
+    font-size: 40px;
+}
+
+
+
+
+.filmes-e-series{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+
+}
+
+.filmes-e-series img {
+    opacity: 0.5;
+    height: 200px;
+
+}
+
+.filmes-e-series img:hover{
+    opacity: 1.0;
+    border: 1px solid white; 
+}
+
+.categoria h2{
+    color: red;
+}
